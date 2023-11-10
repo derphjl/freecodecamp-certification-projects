@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Survey Form Certification Project</title>
+<link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+<h1 id="title">Survey Form</h1>
+
+<p id="description">Thanks vor visiting this site. Please fill in the information below!</p>
+
+<form id="survey-form">
+  <fieldset name="personal-data">
+  <legend>Personal Data</legend>
+  
+      <label for="name" id="name-label">Name: </label>
+      <input name="name" id="name" type="text" placeholder="John Doe" required><br />
+      <label for="email" id="email-label">E-Mail: </label>
+      <input name="email" id="email" type="email" placeholder="john.doe@gmail.com" required><br />
+      <label for="number" id="number-label">Age: </label>
+      <input name="number" id="number" type="number" placeholder="30" min="18" max="105">
+
+  </fieldset>
+  <fieldset name="personal-preferences">
+  <legend>Personal Preferences</legend>
+
+    <label for="dropdown">Favourite Song: </label><br />
+    <select id="dropdown" name="dropdown">
+      <option value="1">To The Blade</option>
+      <option value="2">Distant Past</option>
+      <option value="3">Get To Heaven</option>
+      <option value="4">Regret</option>
+      <option value="5">Spring / Sun / Winter / Dread</option>
+      <option value="6">The Wheel (Is Turning Now)</option>
+      <option value="7">Fortune 500</option>
+      <option value="8">Blast Doors</option>
+      <option value="9">Zero Pharaoh</option>
+      <option value="10">No Reptiles</option>
+      <option value="11">Warm Healer</option>
+    </select>
+
+    <br /><br />
+
+    <p class="label">Do you sleep with or without socks?</p><br />
+
+
+    <input type="radio" id="yes-socks" name="socks" value="with-socks">
+    <label for="yes-socks"> With Socks</label>   
+    <br />
+
+    <input type="radio" id="no-socks" name="socks" value="no-socks">
+    <label for="no-socks"> Without Socks</label>
+    <br />
+
+  </fieldset>
+  <fieldset>
+  <legend>Mix Some Colours!</legend>
+
+    <p>You can mix any of these colours in equal parts. <br> Choose as many as you like!</p>
+
+    <input type="checkbox" id="cyan" name="cyan" value="cyan">
+    <label for="cyan"> Cyan</label>
+    <input type="checkbox" id="magenta" name="magenta" value="magenta">
+    <label for="magenta"> Magenta</label><br />
+    <input type="checkbox" id="yellow" name="yellow" value="yellow">
+    <label for="yellow"> Yellow</label> 
+    <input type="checkbox" id="black" name="black" value="black">
+    <label for="black"> Black</label>
+
+  </fieldset>
+  <fieldset>
+  
+  <legend>Question of the Day</legend>
+    <textarea id="qotd" name="qotd" rows="10" cols=>What are your thoughts on christmas markets? Are they a beneficial social space with a wholesome holiday flair or just cold and miserable?
+    </textarea>
+  
+  </fieldset>
+
+  <input class="submit" id="submit" type="submit" value="Submit!">
+
+</form>
+
+</body>
+</html>
