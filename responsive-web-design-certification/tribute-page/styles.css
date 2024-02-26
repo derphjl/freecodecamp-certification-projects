@@ -25,7 +25,7 @@ body {
   border-style: ridge;
   border-width: thick;
   display: block;
-  margin-left: 3% auto 3% auto;
+  margin: 3% auto 3% auto;
   width: 50%;
   max-width: 100%;
   height: auto;
