@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Technical Documentation Page Vertification Project</title>
+<link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+<main id="main-doc">
+  <nav id="navbar">
+    <header>The Components of the Electronic Circuit</header>
+      <ul>
+        <li><a class="nav-link" href="#Resistor">Resistor</a></li>
+        <li><a class="nav-link" href="#Switch">Switch</a></li>
+        <li><a class="nav-link" href="#Transistor">Transistor</a></li>
+        <li><a class="nav-link" href="#LED">LED</a></li>
+        <li><a class="nav-link" href="#Power_Supply">Power Supply</a></li>
+        <li><a class="nav-link" href="#Microcontroller">Microcontroller</a></li>
+    </ul>
+  </nav>
+
+  <section class="main-section" id="Resistor">
+    <header>Resistor</header>
+    <p>A Resistor may be one of the most pasic electronic components; it restrics the flow of electricity by introducing electrical resistance. 
+        Think of restricting the flow in a garden hose by pinching it, that is basically it.</p>
+    <p>Various types of resistors exist, each with their own advantages and disadvantages:</p>
+    <p>  
+      <ul>
+        <li>Carbon Type Resistors</li>
+        <li>Metal Film Resistors</li>
+        <li>Wire Wound Resistors</li>
+        <li>Specialty Resistors</li>
+      </ul>
+    </p>
+  </section>
+
+  <section class="main-section" id="Switch">
+    <header>Switch</header>
+    <p>A switch is a simple "diversion point" for the electric current: It can allow for current to flow or inhibit it. It can also divert the current onto one of two paths, like a railway switch.</p>
+    <p>The most basic form of switch is the SPST switch, standing for <b>S</b>ingle <b>P</b>ole <b>S</b>ingle <b>T</b>hrow: 
+      A single point of contact can be thrown a single way, so there is no choice: It's either the one circuit or none (off).</p>
+    <div id="switchFigures">
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/SPST-Switch.svg/2560px-SPST-Switch.svg.png" class="imgSwitch" alt="depiction showing a schematic switch in a schematic single conductor, currently open"/>
+        <figcaption>SPST</figcaption>
+      </figure>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/DPST-symbol.svg/1920px-DPST-symbol.svg.png" class="imgSwitch" alt="depiction showing a schematic SPST switches grouped together, switching on or off two parallel contuctors at once"/>
+        <figcaption>DPST</figcaption>
+      </figure>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/DPDT-symbol.svg/1024px-DPDT-symbol.svg.png" class="imgSwitch" alt="depiction showing two schematic switches branching a pair of conductors into two conductors each"/>
+        <figcaption>SPST</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="main-section" id="Transistor">
+    <header>Transistor</header>
+    <p>A transistor is a type of electronic switch, utilizing enriched or depleted fields to enable signal switching.</p>
+    <p>Here is an example block of code-style that has nothing to do with transistors, this is an exercise and not a wiki page after all:</p>
+    <div class="code"><code>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code></div>
+    <p>Some popular types of Tranistor which you can look up right now:</p>
+    <p class="suggestion">(click the link, it opens up the data sheet in a new tab)</p>
+    <p>  
+      <ul>
+        <li><a href="https://diotec.com/request/datasheet/bc546.pdf" target="_blank">BC546...BC549</a></li>
+        <li><a href="https://diotec.com/request/datasheet/bc556.pdf" target="_blank">BC556...BC559</a></li>
+        <li><a href="https://diotec.com/request/datasheet/2n7000.pdf" target="_blank">2N7000</a></li>
+        <li><a href="https://www.mouser.de/datasheet/2/308/1/MMBF170_D-3179750.pdf" target="_blank">BS170</a></li>
+        <li><a href="https://www.mouser.de/datasheet/2/308/MMBFJ113_D-2303036.pdf" target="_blank">J111, 112, 113</a></li>
+        <li><a href="https://www.mouser.de/datasheet/2/308/1/MPSA29_D-2316210.pdf" target="_blank">MPSA29</a></li>
+      </ul>
+    </p>
+  </section>
+
+  <section class="main-section" id="LED">
+    <header>LED</header>
+    <p>The Light Emitting Diode (LED) can produce light! Wikipedia says:</p>
+    <div class="code">
+      <code>A light-emitting diode (LED) is a semiconductor device that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light (corresponding to the energy of the photons) is determined by the energy required for electrons to cross the band gap of the semiconductor. White light is obtained by using multiple semiconductors or a layer of light-emitting phosphor on the semiconductor device.</code>
+    </div>
+    <p>The symbol for an LED looks like this:</p>
+    <div id="ledSymbol">
+      <div id="ledHorizontalStrip"></div>
+      <div id="ledTriangleLeftBar"></div>
+      <div id="ledTriangleUpperRightBar"></div>
+      <div id="ledTriangleLowerRightBar"></div>
+      <div id="ledTriangleStopBar"></div>
+      <div id="ledFirstArrowLine"></div>
+      <div id="ledFirstArrowLeftWing"></div>
+      <div id="ledFirstArrowRightWing"></div>
+      <div id="ledSecondArrowLine"></div>
+      <div id="ledSecondArrowLeftWing"></div>
+      <div id="ledSecondArrowRightWing"></div>
+    </div>
+  </section>
+
+  <section class="main-section" id="Power_Supply">
+    <header>Power Supply</header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>consectetur adipiscing elit</li>
+        <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Ut enim ad minim veniam</li>
+        <li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</li>
+        <li>consequat.</li>
+        <li>Duis aute irure dolor in reprehenderit in voluptate</li>
+        <li>velit esse cillum dolore eu fugiat nulla pariatur</li>
+      </ul>
+    </p>
+    <div class="code"><code>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code></div>
+  </section>
+
+  <section class="main-section" id="Microcontroller">
+    <header>Microcontroller</header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="code"><code>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="code"><code>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code></div>
+  </section>
+
+
+
+</main>
+
+</body>
+</html>
