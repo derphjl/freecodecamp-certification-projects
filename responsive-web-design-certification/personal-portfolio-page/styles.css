@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+/* The navbar should always be at the top of the viewport */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Tahoma','Verdana',sans-serif;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1vh;
+  width: 100vw;
+  background-color: #f95959;
+} 
+
+#navbar {
+  display: contents;
+}
+
+#navbar > a {
+  padding: 1vh;
+  font-size: 12pt;
+  display: block;
+}
+
+#navbar > a:link, #navbar > a:visited {
+  color: #233142;
+  text-decoration: none;
+
+}
+
+#navbar > a:hover, #navbar > a:active {
+  background-color: #233142;
+  color: #e3e3e3;
+}
+
+
+/* The height of the welcome section should be equal to the height of the viewport */
+#welcome-section {
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Tahoma','Verdana',sans-serif;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  border-top: 1px dashed #f95959;
+  border-bottom: 1px dashed #f95959;
+  color: #233142;  
+} 
+
+p {
+  text-align: center;
+  padding: 1vh 2vw 1vh 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+
+}
+
+.project-title {
+  font-family: 'Tahoma','Verdana',sans-serif;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  border-top: 1px dashed #f95959;
+  border-bottom: 1px dashed #f95959;
+  color: #233142;  
+}
+
+
+
+/* Your portfolio should have at least one media query */
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+
+  #navbar > a {
+    padding: 0.5vh;
+    font-size: 10pt;
+  }
+}
